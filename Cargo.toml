@@ -1,0 +1,11 @@
+[package]
+name = "new-port-scanner"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+color-eyre = "0.6"  
+tokio = { version = "1", features = ["full"] }  
+ratatui = "0.29"  
+crossterm = "0.28"  
+futures = "0.3"
